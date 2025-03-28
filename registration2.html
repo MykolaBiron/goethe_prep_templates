@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>GoethePREP</title>
+        <link rel="stylesheet" href="registration2.css">
+    </head>
+    <body>
+        <main>
+        <form class="registration-form" action="" method="post">
+            <div>
+                <label for="name">Username</label>
+                <input name="username" type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Create password</label>
+                <input name="password" type="password" min="7" maxlength="12" 
+                    id="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <label for="email-input">Email</label>
+                <input type="email" id="email-input" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <label>Man</label>
+                <input type="radio" name="title" id="gender">
+                <label>Women</label>
+                <input type="radio" name="title" id="gender">
+                <label>Diverse</label>
+                <input type="radio" name="title" id="gender">
+            </div>
+            <div>
+                <label for="checkbox">I want to recieve email from GoethePREP</label>
+                <input type="checkbox" id="checkbox">
+            </div>
+            <div class="btn-div">
+                <button class="btn-link" type="submit"><a href="home.html">Register</a></button>
+            </div>
+        </form>
+        </main>
+    </body>
+</html>
