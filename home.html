@@ -2,10 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="css/home.css">
+        <title>GoethePREP</title>
+        <link rel="icon" type="image/png" href="images/goethe_prep_logo.png">
     </head>
     <body>
         <nav>
+            <form class="search-form">
+                <input type="text" placeholder="Search for courses and topics" required>
+            </form>
             <a href="">Logout</a>
             <img class="profile-icon" src="images/profile-icon.avif" alt="profile icon">
         </nav>
@@ -13,7 +18,7 @@
             <h1>Hi {{username}}! Let's start learning!</h1>
             <h2>Take a test to create your personalised study program! Or start with the basics if you are a beginner</h2>
             <div>
-                <a href="test.html">Take a test</a>
+                <a href="tests/test-page1.html">Take a test</a>
                 <a href="beginner.html">I am a beginner</a>
             </div>
         </header>

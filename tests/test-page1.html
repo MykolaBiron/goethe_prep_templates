@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tests-css/test-page1.css">
+        <title>GoethePREP</title>
+        <link rel="icon" type="image/png" href="images/goethe_prep_logo.png">
+        <script src="test-page1.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+
+            </nav>
+            <h1>Lets start!</h1>
+            <h2>Complete the following sentences with the words below</h2>
+        </header>
+        <main>
+            <section>
+                <ol>
+                    <li> 
+                        <p>Ich <span id="placeholder-1">______ </span> ein Mensch.</p>
+                        <button class="reset" id="r1" onclick="resetGap('placeholder-1', 0)"></button>
+                    </li>
+                    <li>
+                        <p>Du <span id="placeholder-2">______ </span> heute nicht zur Schule.</p>
+                        <button class="reset" id="r2" onclick="resetGap('placeholder-2', 1)"></button>
+                    </li>
+                    <li>
+                        <p>Tom arbeitet im Krankenhaus. Er ist ein <span id="placeholder-3">______</span>.</p>
+                        <button class="reset" id="r3" onclick="resetGap('placeholder-3', 2)"></button>
+                    </li>
+                    <li>
+                        <p>Wir <span id="placeholder-4"> ______ </span> gemeinsam Fußball.</p>
+                        <button class="reset" id="r3" onclick="resetGap('placeholder-3', 3)"></button>
+                    </li>
+                </ol>
+            </section>
+            <section class="options">
+                <button class="option" id="op1" onclick="insertOption('gehst', this)">gehst</button>
+                <button class="option" id="op2" onclick="insertOption('arzt', this)">Arzt</button>
+                <button class="option" id="op3" onclick="insertOption('bin', this)">bin</button>
+                <button class="option" id="op4" onclick="insertOption('spielen', this)">spielen</button>
+            </section>
+            <div class="continue-container">
+                <a class="continue" href="tests/test-page2.html">Continue</a>
+            </div>
+            <div class="progress-bar">
+                <div class="tests-done"></div>
+            </div>
+        </main>
+    </body>
+</html>

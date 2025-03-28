@@ -1,0 +1,67 @@
+body {
+    font-size: 1.4rem;
+}
+header {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+main {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.option {
+    width: 100px;
+    background-color: white;
+    border: 3px solid rgb(15, 236, 144);
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    max-width: 32vw;
+    min-width: 450px;
+}
+span {
+    width: 100px;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+.reset {
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+}
+.continue {
+    font-size: 1.6rem;
+    padding: 12px 25px;
+    background-color: rgb(35, 184, 233);
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.continue-container {
+    display: flex;
+    justify-content: center;
+}
+.progress-bar {
+    width: 50%;
+    height: 12px;
+    border: 3px solid rgb(35, 184, 233);
+    border-radius: 6px;
+}
+.tests-done {
+    width: 8%;
+    border: none;
+    border-radius: 6px;
+    height: 12px;
+    background-color: blue;
+}
