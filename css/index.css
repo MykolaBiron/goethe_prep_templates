@@ -15,11 +15,6 @@ main {
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 1080px) and (orientation: portrait) {
-    main {
-        padding-top: 15vh;
-    } /* without was good */
-}
 h1 {
     font-size: 3rem;
 }
@@ -47,4 +42,12 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+    main {
+        padding-top: 15vh;
+    } /* without was good */
+    h2 {
+        font-size: 1.7rem;
+    }  
 }
