@@ -17,8 +17,7 @@ main {
 }
 @media screen and (max-width: 1080px) and (orientation: portrait) {
     main {
-        padding-top: 25vh;
-    }
+        padding-top: 20vh;
 }
 h1 {
     font-size: 3rem;
