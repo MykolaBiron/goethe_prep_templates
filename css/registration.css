@@ -40,3 +40,15 @@ a {
     text-decoration: none;
     padding: 12px 25px;
 }
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+    main {
+        padding-top: 15vh;
+    } /* without was good */
+    h2 {
+        font-size: 1.7rem;
+    }  
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

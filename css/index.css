@@ -50,4 +50,8 @@ p {
     h2 {
         font-size: 1.7rem;
     }  
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
