@@ -18,6 +18,7 @@ main {
 @media screen and (max-width: 1080px) and (orientation: portrait) {
     main {
         padding-top: 20vh;
+    } /* without was good */
 }
 h1 {
     font-size: 3rem;
