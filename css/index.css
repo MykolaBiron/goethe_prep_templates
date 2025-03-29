@@ -1,22 +1,24 @@
+/* Laptop: 1191 x 585 
+    Phone: 1080 x 2460*/
 :root {
     --btn-color: #2354e9;
     --dark-green: #008b68;
     --green: #08c19c;
     --light-green: #65fbd2;
 }
-@media(max-width: 768px) {
-    main {
-        margin-top: 200px;
-        
-    }
-}
 body {
     padding-left: 3%;
     padding-right: 3%;
 }
 main {
+    padding-top: 10%;
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+    main {
+        padding-top: 25%;
+    }
 }
 h1 {
     font-size: 3rem;
