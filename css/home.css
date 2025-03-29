@@ -62,8 +62,8 @@ nav {
         padding: 10px 20px;
         border-radius: 8px;
     }
-    /*.logout-img {
-        width: 40px;
-        height: 40px;
-    }*/
+    logout-img {
+        width: 5rem;
+        height: 5rem;
+    }
 }
