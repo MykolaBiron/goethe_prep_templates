@@ -17,7 +17,7 @@ main {
 }
 @media screen and (max-width: 1080px) and (orientation: portrait) {
     main {
-        padding-top: 18vh;
+        padding-top: 15vh;
     } /* without was good */
 }
 h1 {
