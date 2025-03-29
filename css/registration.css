@@ -1,3 +1,9 @@
+:root {
+    --btn-color: rgb(35, 84, 233);
+    --dark-green: #008b68;
+    --green: #08c19c;
+    --light-green: #65fbd2;
+}
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +14,8 @@ body, input, button, label {
 }
 main {
     width: 30%;
-    border: 5px solid rgb(35, 184, 233);
+    min-width: 440px;
+    border: 5px solid var(rgb(35, 84, 233));
     border-radius: 14px;
     display: flex;
     justify-content: center;
@@ -17,7 +24,7 @@ main {
 }
 button {
     padding: 12px 25px;
-    background-color: rgb(35, 184, 233);
+    background-color: rgb(35, 84, 233);
     color: white;
     border: none;
     border-radius: 8px;

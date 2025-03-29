@@ -1,3 +1,15 @@
+:root {
+    --btn-color: #2354e9;
+    --dark-green: #008b68;
+    --green: #08c19c;
+    --light-green: #65fbd2;
+}
+@media(max-width: 768px) {
+    main {
+        margin-top: 200px;
+        
+    }
+}
 body {
     padding-left: 3%;
     padding-right: 3%;
@@ -18,7 +30,7 @@ p {
     margin-bottom: 3rem;
 }
 .btn-link {
-    background-color: rgb(35, 184, 233);
+    background-color: var(--btn-color);
     padding: 24px 75px;
     border-radius: 30px;
     font-size: 2.4rem;
@@ -27,7 +39,7 @@ p {
     transition: background-color 0.3s ease;
 }
 .btn-link:hover {
-    background-color: rgb(60, 227, 60);
+    background-color: #008b68;
 }
 .btn-container {
     width: 100%;

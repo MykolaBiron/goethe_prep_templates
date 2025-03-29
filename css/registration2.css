@@ -1,3 +1,19 @@
+:root {
+    --btn-color: rgb(35, 84, 233);
+    --dark-green: #008b68;
+    --green: #08c19c;
+    --light-green: #65fbd2;
+}
+@media(max-width: 768px) {
+    main {
+        width: 620px;
+    }
+}
+@media(min-width: 769px) {
+    main {
+        width: 30%;
+    }
+}
 body {
     font-size: 1.4rem;
     display: flex;
@@ -5,8 +21,7 @@ body {
     padding-top: 30px;
 }
 main {
-    width: 440px;
-    border: 5px solid rgb(35, 184, 233);
+    border: 5px solid var(--btn-color);
     border-radius: 14px;
     display: flex;
     justify-content: center;
@@ -16,7 +31,7 @@ main {
 button {
     font-size: 1.4rem;
     padding: 12px 25px;
-    background-color: rgb(35, 184, 233);
+    background-color: var(--btn-color);
     color: white;
     border: none;
     border-radius: 8px;
@@ -30,7 +45,7 @@ button {
 a {
     font-size: 1.4rem;
     padding: 12px 25px;
-    background-color: rgb(35, 184, 233);
+    background-color: var(--btn-color);
     color: white;
     border: none;
     text-decoration: none;
