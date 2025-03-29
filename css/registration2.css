@@ -11,12 +11,15 @@ body {
     padding-top: 30px;
 }
 main {
-    border: 5px solid var(--btn-color);
     border-radius: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30%;
+    padding-top: 10%;
+}
+.border-container {
+    border: 5px solid var(--btn-color);
 }
 button {
     font-size: 1.4rem;

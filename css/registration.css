@@ -13,9 +13,8 @@ body, input, button, label {
     font-size: 1.4rem;
 }
 main {
-    padding-top: clamp(200px, 20%, 20%);
     width: 30%;
-    border: 5px solid var(rgb(35, 84, 233));
+    border: 5px solid var(--btn-color);
     border-radius: 14px;
     display: flex;
     justify-content: center;
