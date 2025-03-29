@@ -5,6 +5,7 @@
     --light-green: #65fbd2;
 }
 body {
+    padding-top: 1%;
     font-size: 1.4rem;
 }
 header {
@@ -15,7 +16,11 @@ header {
 h2 {
     font-weight: normal;
 }
-a {
+.logout-img {
+    width: 80px;
+    height: 80px;
+}
+.test-option {
     background-color: var(--btn-color);
     color: white;
     text-decoration: none;
@@ -24,9 +29,41 @@ a {
 }
 nav {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+.search-form {
+    width: 50%;
+}
+.search-input {
+    width: 100%;
+    font-size: 1.4rem;
 }
 .profile-icon {
     width: 60px;
     height: 60px;
+}
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+    h2 {
+        font-size: 1.7rem;
+    }  
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .profile-icon {
+        width: 30px;
+        height: 30px;
+    }
+    .test-option {
+        background-color: var(--btn-color);
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    .logout-img {
+        width: 40px;
+        height: 40px;
+    }
 }
